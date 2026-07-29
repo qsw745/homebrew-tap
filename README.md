@@ -8,8 +8,15 @@ with a GPU-rendered terminal.
 
 ```bash
 brew tap qsw745/tap
+brew trust --cask qsw745/tap/cloudshellconsole
 brew install --cask cloudshellconsole
 ```
+
+Recent Homebrew refuses to load casks from third-party taps until they are
+trusted, so the `brew trust` line is required — without it `brew install` stops
+with *"Refusing to load cask … from untrusted tap"*. Trusting the single cask
+(rather than `brew trust qsw745/tap`) keeps the grant narrow: whole-tap trust
+also covers anything added to the tap later.
 
 ## Upgrade
 

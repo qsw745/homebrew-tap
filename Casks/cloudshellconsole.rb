@@ -17,7 +17,7 @@ cask "cloudshellconsole" do
   end
 
   # Matches LSMinimumSystemVersion (14.0) in the shipped bundle.
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "CloudShellConsole.app"
 
