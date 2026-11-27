@@ -45,3 +45,13 @@ brew uninstall --zap --cask cloudshellconsole
 - Requires macOS 14 (Sonoma) or newer.
 - Releases are signed with a Developer ID certificate and notarized by Apple, so
   they open without a Gatekeeper prompt.
+
+## QPack
+
+通过 Homebrew 安装 [QPack](https://qisw.top/qpack/)
+
+```bash
+brew install --cask qsw745/tap/qpack
+```
+
+需要 macOS 12 或更新版本。Apple Silicon 安装 0.1.5，Intel Mac 安装 0.1.2。两个安装包均已完成 Developer ID 签名和 Apple 公证。
