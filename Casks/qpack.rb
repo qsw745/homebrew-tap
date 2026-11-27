@@ -2,8 +2,8 @@ cask "qpack" do
   arch arm: "aarch64", intel: "x64"
 
   on_arm do
-    version "0.1.5"
-    sha256 "583ad990a60f0264948d5cd141e86299dd85d19423751839c7c3724d3ff8bd7f"
+    version "0.1.7"
+    sha256 "cd8fbfa2c73cbbdfefba9f8f8a3ad16c5c031059e0b6b7ead810f64bd8aa3cf8"
   end
   on_intel do
     version "0.1.2"

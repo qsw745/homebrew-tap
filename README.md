@@ -54,4 +54,4 @@ brew uninstall --zap --cask cloudshellconsole
 brew install --cask qsw745/tap/qpack
 ```
 
-需要 macOS 12 或更新版本。Apple Silicon 安装 0.1.5，Intel Mac 安装 0.1.2。两个安装包均已完成 Developer ID 签名和 Apple 公证。
+需要 macOS 12 或更新版本。Apple Silicon 安装 0.1.7，Intel Mac 安装 0.1.2。两个安装包均已完成 Developer ID 签名和 Apple 公证。
