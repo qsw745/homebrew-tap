@@ -2,12 +2,12 @@ cask "qpack" do
   arch arm: "aarch64", intel: "x64"
 
   on_arm do
-    version "0.1.7"
-    sha256 "cd8fbfa2c73cbbdfefba9f8f8a3ad16c5c031059e0b6b7ead810f64bd8aa3cf8"
+    version "0.1.8"
+    sha256 "a4416be443239bc02ed690b8ab591ff74a82ec7a6aa6b8d72129331f9be7ddd2"
   end
   on_intel do
-    version "0.1.2"
-    sha256 "49a9eda63e730e86550275c3e36cfd26a266decbeed2c32f4d4e072ee950ec58"
+    version "0.1.8"
+    sha256 "ba0d8a10c13e6b3f633444ca3e517fcd09090a5678e7c55a8d962e27b4ff479c"
   end
 
   url "https://qisw.top/qpack/releases/QPack_#{version}_#{arch}_homebrew.zip"
